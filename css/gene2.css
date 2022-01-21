@@ -31,3 +31,7 @@ h1 {
 .geneinfo {
   padding: 8px;
 }
+
+.button {
+  text-align: right;
+}

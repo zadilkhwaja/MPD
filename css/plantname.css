@@ -43,3 +43,7 @@ h1 {
 .plantpart {
   padding: 8px;
 }
+
+.button {
+  text-align: right;
+}
