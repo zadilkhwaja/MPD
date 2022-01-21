@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compound Details</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/page3.css" />
+  </head>
+  <body>
+    <!--Nav bar-->
+    <nav class="navbar navbar-light bgnew bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><h2>Compound Details</h2></a>
+      </div>
+    </nav>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--search bar-->
+    <nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <form class="d-flex">
+      <input style="width: 20em;" class="form-control me-2" type="search" placeholder="Enter plant name" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+    <!--list of compounds-->
+    <h4 style="margin: 1%;">List of Compounds</h4>
+    <div class="list-group">
+  <button  id="item1" type="button" class="list-group-item list-group-item-action" onclick="work1()">
+    Hyoscine
+  </button>
+  <button id="item2" type="button" class="list-group-item list-group-item-action" onclick="work()">Hyoscyamine</button>
+  <button type="button" class="list-group-item list-group-item-action">Micotianamine</button>
+  <button type="button" class="list-group-item list-group-item-action">Atropinem</button>
+  <button type="button" class="list-group-item list-group-item-action" disabled>l-oxo-21,24S-epoxy-(20S,22S-witha-2,5,25-trienolide</button>
+</div>
+
+<!--info-->
+<div id="section2" class="section2">
+<h4 id="info" style="margin: 1%;">information of compound:</h4>
+<ul class="list-group">
+  <li class="list-group-item"><h5>Name:</h5> Hyoscine</li>
+  <li class="list-group-item"><h5>Structure:</h5> <img src="/media/structure.png" alt="something went wrong"></li>
+  <li class="list-group-item"><h5>MoA:</h5>
+Acetylcholine (ACh) is a neurotransmitter that can signal through ligand-gated cation channels (nicotinic receptors) and G-protein-coupled muscarinic receptors (mAChRs). ACh signalling via mAChRs located in the central nervous system (CNS) and periphery can regulate smooth muscle contraction, glandular secretions, heart rate, and various neurological phenomena such as learning and memory.2,3 mAChRs can be divided into five subtypes, M1-M5, expressed at various levels throughout the brain.3 Also, M2 receptors are found in the heart and M3 receptors in smooth muscles, mediating effects apart from the direct modulation of the parasympathetic nervous system.4 While M1, M3, and M5 mAChRs primarily couple to Gq proteins to activate phospholipase C, M2 and M4 mainly couple to Gi/o proteins to inhibit adenylyl cyclase and modulate cellular ion flow.3 This system, in part, helps to control physiological responses such as nausea and vomiting.9
+
+Scopolamine acts as a non-selective competitive inhibitor of M1-M5 mAChRs, albeit with weaker M5 inhibition; as such, scopolamine is an anticholinergic with various dose-dependent therapeutic and adverse effects.4,5,6 The exact mechanism(s) of action of scopolamine remains poorly understood. Recent evidence suggests that M1 (and possibly M2) mAChR antagonism at interneurons acts through inhibition of downstream neurotransmitter release and subsequent pyramidal neuron activation to mediate neurological responses associated with stress and depression.7 Similar antagonism of M4 and M5 receptors is associated with potential therapeutic benefits in neurological conditions such as schizophrenia and substance abuse disorders.3 The significance of these observations to scopolamine's current therapeutic indications of preventing nausea and vomiting is unclear but is linked to its anticholinergic effect and ability to alter signalling through the CNS associated with vomiting.
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Target</th>
+      <th scope="col">Action</th>
+      <th scope="col">Organism</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Muscarinic acetylcholine receptor M1</td>
+      <td>	antagonist</td>
+      <td>Humans</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Muscarinic acetylcholine receptor M2</td>
+      <td>antagonist</td>
+      <td>Humans</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Muscarinic acetylcholine receptor M3</td>
+      <td>antagonist</td>
+      <td>Humans</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Neuronal acetylcholine receptor subunit alpha-4</td>
+      <td>inhibitor inducer</td>
+      <td>Humans</td>
+    </tr>
+  </tbody>
+</table>
+</li>
+  <li class="list-group-item"><h5>Side Effect:</h5> 
+Scopolamine overdose may manifest as lethargy, somnolence, coma, confusion, agitation, hallucinations, convulsion, visual disturbance, dry flushed skin, dry mouth, decreased bowel sounds, urinary retention, tachycardia, hypertension, and supraventricular arrhythmias. In some cases, overdose symptoms may appear similar to those associated with withdrawal following discontinuation. However, withdrawal symptoms such as bradycardia, headache, nausea, abdominal cramps, and sweating can help to distinguish between these possibilities. Overdose management primarily involves the removal of all transdermal patch systems combined with symptomatic and supportive care. Ensuring an adequate airway, supplemental oxygen, establishing intravenous access, and continuous monitoring are recommended. In cases where patients have swallowed one or more patch systems, it may be necessary to remove them or administer activated charcoal.</li>
+  <li class="list-group-item"><h5>Similar Compounds:</h5><a href="https://www.ncbi.nlm.nih.gov/pccompound?cmd=Link&LinkName=pccompound_pccompound&from_uid=3000322">Click this link to view similar compounds.</a></li>
+</ul>
+    <!--grid list-->
+    
+    <section class="section1">
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Disease</th>
+      <th scope="col">symptoms</th>
+      <th scope="col">Pathway</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Amnesia</td>
+      <td>Nausea, dizziness, vomiting, gastrointestinal disturbances, sweating, headaches, bradycardia, hypotension</td>
+      <td><a href=" https://www.genome.jp/entry/C01851"> Pathway Link</a></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Amnesia, Anterograde</td>
+      <td>Nausea, dizziness, vomiting, gastrointestinal disturbances, sweating, headaches, bradycardia, hypotension</td>
+      <td><a href=" https://www.genome.jp/entry/C01851"> Pathway Link</a></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Anisocoria</td>
+      <td >
+Synonyms 	Anisocoria, Physiologic | Inequality, Pupillary Size | Physiologic Anisocoria | Pupil Diameter Unequal | Pupillary Size Inequality</td>
+      <td><a href=" https://www.genome.jp/entry/C01851"> Pathway Link</a></td>
+    </tr>
+  </tbody>
+</table>
+</section>
+</div>
+<div id="na" style="visibility: hidden;">
+    not available
+</div>
+<script src="/html/javascript/listcontrol.js "></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+.navbar {
+  background-color: rgb(32, 122, 73);
+  font-size: 12px;
+  font-family: Arial;
+  margin-left: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+h1 {
+  color: whitesmoke;
+}
+.targetplant {
+  background-color: rgb(230, 230, 103);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 2px solid red;
+}
+.name {
+  padding: 8px;
+}
+
+.scientificName {
+  padding: 8px;
+}
+
+.image {
+  padding: 8px;
+}
+
+.compound {
+  padding: 8px;
+}
+
+.cid {
+  padding: 8px;
+}
+
+.plantpart {
+  padding: 8px;
+}

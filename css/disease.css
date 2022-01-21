@@ -1,0 +1,37 @@
+.navbar {
+  background-color: rgb(32, 122, 73);
+  font-size: 12px;
+  font-family: Arial;
+  margin-left: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.disease {
+  background-color: rgb(230, 230, 103);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+.diseasename {
+  padding: 8px;
+}
+.moa {
+  padding: 8px;
+}
+.roa {
+  padding: 8px;
+}
+
+.adme {
+  padding: 8px;
+}
+
+.sideeffects {
+  padding: 8px;
+}

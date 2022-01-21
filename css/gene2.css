@@ -1,0 +1,33 @@
+.navbar {
+  background-color: rgb(32, 122, 73);
+  margin-left: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+.targetgene {
+  background-color: rgb(230, 230, 103);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 2px solid;
+}
+
+.geneid {
+  padding: 8px;
+}
+
+.genename {
+  padding: 8px;
+}
+
+.geneinfo {
+  padding: 8px;
+}
